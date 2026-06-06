@@ -7,27 +7,18 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+Game:
+Controller:
+Settings used:
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+Describe the bug:
+...
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+Steps to reproduce:
+...
 
-**Screenshots and Logs**
-If applicable, add screenshots to help explain your problem. Also, please add the most
-log file (app_log.txt) from the Logs folder in your APP config folder.
+Expected behavior:
+...
 
-**Desktop (please complete the following information):**
- - Controller Make and Model: Sony DS4 v.2 (CUH-ZCT2U)
- - OS: [e.g. Windows 10 Pro Build 2004]
- - APP Version [e.g. 3.0.3]
-
-**Additional context**
-Add any other context about the problem here.
+Screenshots/logs:
+...
