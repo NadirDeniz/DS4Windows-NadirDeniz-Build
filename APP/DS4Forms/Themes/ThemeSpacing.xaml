@@ -1,0 +1,52 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Modern spacing / radius tokens -->
+    <Thickness x:Key="ModernPagePadding">14</Thickness>
+    <Thickness x:Key="ModernSectionMargin">10,8,10,8</Thickness>
+    <Thickness x:Key="ModernControlPadding">10,5</Thickness>
+    <!-- Inner padding inside rounded card / group borders -->
+    <Thickness x:Key="ModernCardPadding">14,12,14,12</Thickness>
+    <Thickness x:Key="ModernSurfacePadding">10,8,10,8</Thickness>
+    <Thickness x:Key="ModernButtonPadding">14,8</Thickness>
+    <Thickness x:Key="ModernToolbarPadding">16,9</Thickness>
+    <Thickness x:Key="ModernTextBoxPadding">10,6</Thickness>
+    <Thickness x:Key="ModernComboBoxPadding">10,6</Thickness>
+    <!-- Outer gap between controls (keeps border stroke inside layout slot) -->
+    <Thickness x:Key="ModernControlMargin">1,1,1,1</Thickness>
+    <!-- Legacy key kept at 0; clearance is on template root Grid margin="1" -->
+    <Thickness x:Key="ModernChromeInset">0</Thickness>
+    <Thickness x:Key="ModernInlineMargin">1,1,1,1</Thickness>
+    <sys:Double x:Key="ModernInlineMinHeight">26</sys:Double>
+    <CornerRadius x:Key="ModernInlineRadius">7</CornerRadius>
+    <GridLength x:Key="ModernFormRowHeight">36</GridLength>
+    <Thickness x:Key="ModernTabItemMargin">4,0,4,0</Thickness>
+    <Thickness x:Key="ModernTabItemChromeMargin">0</Thickness>
+    <Thickness x:Key="ModernTabHeaderHostPadding">14,10,14,10</Thickness>
+    <GridLength x:Key="ModernTabHeaderRowHeight">58</GridLength>
+    <Thickness x:Key="ModernTabPanelMargin">0</Thickness>
+    <sys:Double x:Key="ModernTabItemMinHeight">34</sys:Double>
+    <CornerRadius x:Key="ModernToolbarRadius">12</CornerRadius>
+    <sys:Double x:Key="ModernToolbarIconSize">18</sys:Double>
+    <sys:Double x:Key="ModernNestedTabHeaderMinHeight">40</sys:Double>
+    <Thickness x:Key="ModernNestedTabPanelMargin">6,8,6,8</Thickness>
+
+    <sys:Double x:Key="ModernCheckBoxSize">18</sys:Double>
+    <CornerRadius x:Key="ModernCheckBoxRadius">4</CornerRadius>
+    <Thickness x:Key="ModernCheckBoxLabelPadding">8,0,0,0</Thickness>
+
+    <CornerRadius x:Key="ModernSmallRadius">6</CornerRadius>
+    <CornerRadius x:Key="ModernControlRadius">8</CornerRadius>
+    <CornerRadius x:Key="ModernCardRadius">12</CornerRadius>
+    <CornerRadius x:Key="ModernTabRadius">12</CornerRadius>
+    <CornerRadius x:Key="ModernTabTopRadius">8,8,0,0</CornerRadius>
+
+    <sys:Double x:Key="ModernBorderThickness">1</sys:Double>
+    <sys:Double x:Key="ModernHoverOpacity">0.18</sys:Double>
+    <sys:Double x:Key="ModernPressedOpacity">0.28</sys:Double>
+
+    <!-- Bottom toolbars / Plug-Unplug rows: never clip modern buttons (MinHeight 26 + padding). -->
+    <sys:Double x:Key="ModernBottomActionBarMinHeight">40</sys:Double>
+    <Thickness x:Key="ModernBottomActionBarMargin">0,16,0,8</Thickness>
+</ResourceDictionary>
